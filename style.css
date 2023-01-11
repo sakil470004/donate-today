@@ -187,10 +187,49 @@
 }
 
 /* my update */
-.my-updates{
+.my-updates {
     max-width: 1140px;
     margin: 120px auto;
 }
-.my-updates >h1{
+
+.my-updates>h1 {
     text-align: center;
+}
+
+.input-holder {
+    background-color: #fff5d6;
+    padding: 80px 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.input-holder input {
+    color: gray;
+    background-color: lightgray;
+    border: none;
+    border-radius: 5px;
+    font-size: 24px;
+    padding: 15px;
+}
+
+/* footer */
+.footer {
+    background-color: black;
+    text-align: center;
+    padding: 80px 0px;
+}
+
+.footer h1 {
+    font-size: 42px;
+    font-style: italic;
+    color: #ff5959;
+    font-weight: 900;
+}
+.footer p{
+
+}
+
+.footer p {
+    color: #FFFFFF;
+    font-size: 26px;
 }
